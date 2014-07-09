@@ -1,0 +1,29 @@
+{
+  "name": "css-word-spacing",
+  "version": "0.0.1",
+  "homepage": "http://github.com/mrmrs/css-word-spacing",
+  "description": "Css module of single purpose classes for word spacing",
+  "keywords": [
+    "css",
+    "oocss",
+    "",
+    ""
+  ],
+  "css-word-spacing": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-word-spacing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/repo/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "Adam Morse", "email": "hi@mrmrs.cc" }
+  ],
+  "license": "MIT"
+}
