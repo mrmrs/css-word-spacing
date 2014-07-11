@@ -23,19 +23,19 @@ or download the css on github and include in your project.
 .ws1 { word-spacing: 0.3em; }
 .ws2 { word-spacing: -0.43em; } /* For eliminating space between inline-block elements */
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .wsn-ns { word-spacing: normal; }
   .ws1-ns { word-spacing: 0.3em; }
   .ws2-ns { word-spacing: -0.43em; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .wsn-m { word-spacing: normal; }
   .ws1-m { word-spacing: 0.3em; }
   .ws2-m { word-spacing: -0.43em; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .wsn-l { word-spacing: normal; }
   .ws1-l { word-spacing: 0.3em; }
   .ws2-l { word-spacing: -0.43em; }
