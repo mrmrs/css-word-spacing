@@ -1,26 +1,53 @@
-/*
-   WORD SPACING
-*/
-
-.wsn { word-spacing: normal; }
-.ws1 { word-spacing: 0.3em; }
-.ws2 { word-spacing: -0.43em; } /* For eliminating space between inline-block elements */
-
-@media screen and (min-width: 48em) {
-  .wsn-ns { word-spacing: normal; }
-  .ws1-ns { word-spacing: 0.3em; }
-  .ws2-ns { word-spacing: -0.43em; }
+.wsn {
+  word-spacing: normal;
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
-  .wsn-m { word-spacing: normal; }
-  .ws1-m { word-spacing: 0.3em; }
-  .ws2-m { word-spacing: -0.43em; }
+.ws1 {
+  word-spacing: .3em;
 }
 
-@media screen and (min-width: 64em) {
-  .wsn-l { word-spacing: normal; }
-  .ws1-l { word-spacing: 0.3em; }
-  .ws2-l { word-spacing: -0.43em; }
+.ws2 {
+  word-spacing: -.43em;
 }
 
+@media screen and (width >= 32em) {
+  .wsn-s {
+    word-spacing: normal;
+  }
+
+  .ws1-s {
+    word-spacing: .3em;
+  }
+
+  .ws2-s {
+    word-spacing: -.43em;
+  }
+}
+
+@media screen and (width >= 48em) {
+  .wsn-m {
+    word-spacing: normal;
+  }
+
+  .ws1-m {
+    word-spacing: .3em;
+  }
+
+  .ws2-m {
+    word-spacing: -.43em;
+  }
+}
+
+@media screen and (width >= 96em) {
+  .wsn-l {
+    word-spacing: normal;
+  }
+
+  .ws1-l {
+    word-spacing: .3em;
+  }
+
+  .ws2-l {
+    word-spacing: -.43em;
+  }
+}
