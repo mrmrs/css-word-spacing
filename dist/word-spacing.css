@@ -1,7 +1,3 @@
-.wsn {
-  word-spacing: normal;
-}
-
 .ws1 {
   word-spacing: .3em;
 }
@@ -10,11 +6,11 @@
   word-spacing: -.43em;
 }
 
-@media screen and (width >= 32em) {
-  .wsn-s {
-    word-spacing: normal;
-  }
+.ws-normal {
+  word-spacing: normal;
+}
 
+@media screen and (width >= 32em) {
   .ws1-s {
     word-spacing: .3em;
   }
@@ -22,13 +18,13 @@
   .ws2-s {
     word-spacing: -.43em;
   }
+
+  .ws-normal-s {
+    word-spacing: normal;
+  }
 }
 
 @media screen and (width >= 48em) {
-  .wsn-m {
-    word-spacing: normal;
-  }
-
   .ws1-m {
     word-spacing: .3em;
   }
@@ -36,18 +32,22 @@
   .ws2-m {
     word-spacing: -.43em;
   }
+
+  .ws-normal-m {
+    word-spacing: normal;
+  }
 }
 
 @media screen and (width >= 96em) {
-  .wsn-l {
-    word-spacing: normal;
-  }
-
   .ws1-l {
     word-spacing: .3em;
   }
 
   .ws2-l {
     word-spacing: -.43em;
+  }
+
+  .ws-normal-l {
+    word-spacing: normal;
   }
 }
