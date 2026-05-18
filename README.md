@@ -6,8 +6,8 @@ Functional CSS for word-spacing
 
 | File | Size |
 |------|------|
-| `dist/word-spacing.css` | 609 bytes |
-| `dist/word-spacing.min.css` | 433 bytes (146 Gzipped) |
+| `dist/word-spacing.css` | 585 bytes |
+| `dist/word-spacing.min.css` | 409 bytes (141 Gzipped) |
 
 ## Install
 
@@ -39,18 +39,18 @@ npm install css-word-spacing
 
 | Class   | Value                    |
 |---------|--------------------------|
+| `.wsn` | `word-spacing: normal;` |
 | `.ws1` | `word-spacing: .3em;` |
 | `.ws2` | `word-spacing: -.43em;` |
-| `.ws-normal` | `word-spacing: normal;` |
+| `.wsn-s` | `word-spacing: normal;` |
 | `.ws1-s` | `word-spacing: .3em;` |
 | `.ws2-s` | `word-spacing: -.43em;` |
-| `.ws-normal-s` | `word-spacing: normal;` |
+| `.wsn-m` | `word-spacing: normal;` |
 | `.ws1-m` | `word-spacing: .3em;` |
 | `.ws2-m` | `word-spacing: -.43em;` |
-| `.ws-normal-m` | `word-spacing: normal;` |
+| `.wsn-l` | `word-spacing: normal;` |
 | `.ws1-l` | `word-spacing: .3em;` |
 | `.ws2-l` | `word-spacing: -.43em;` |
-| `.ws-normal-l` | `word-spacing: normal;` |
 
 ### Responsive
 
@@ -62,7 +62,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.ws1-m` applies the property at the medium breakpoint and above.
+Example: `.wsn-m` applies the property at the medium breakpoint and above.
 
 ## Building
 
